@@ -9,7 +9,7 @@ def get_most_similar_response(df, query, top_k=1):
     vectorizer = TfidfVectorizer()
     all_data = list(df['Query']) + [query]
 
-    # Step 2: TF-IDF Vectorization
+    # Step 2: TF-IDF Vectorizations
     tfidf_matrix = vectorizer.fit_transform(all_data)
 
     # Step 3: Compute Similarity
