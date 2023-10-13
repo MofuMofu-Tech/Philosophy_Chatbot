@@ -27,6 +27,7 @@ def get_most_similar_response(df, query, top_k=1):
 # Sample DataFrame with user_chat and response columns
 data = {
     'Query': [
+    'Hi',
     'What is the meaning of life?',
     'Is reality an illusion?',
     'What is the nature of consciousness?',
@@ -79,6 +80,7 @@ data = {
     'What is the relationship between ethics and technology ethics?',
 ],
 'Response': [
+    'Hello, im Plato the Philosophy Bot, Ask me anything!',
     'The meaning of life is a deeply philosophical question with no single, universally accepted answer. Philosophers have offered various interpretations, including pursuing personal happiness or fulfilling one\'s potential.',
     'It\'s a question that has puzzled humanity for centuries.',
     'The question of whether reality is an illusion or not is a complex one. Various philosophical traditions, including idealism and solipsism, offer different perspectives on the nature of reality.',
